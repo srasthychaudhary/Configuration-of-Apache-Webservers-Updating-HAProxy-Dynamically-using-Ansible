@@ -1,0 +1,6 @@
+[loadbalancer]
+52.66.205.65 ansible_user=ec2-user ansible_ssh_private_key_file=/root/sshkeys/key1515.pem ansible_connection=ssh
+
+[webserver]
+13.232.225.206 ansible_user=ec2-user ansible_ssh_private_key_file=/root/sshkeys/key1515.pem ansible_connection=ssh 
+13.232.117.206 ansible_user=ec2-user ansible_ssh_private_key_file=/root/sshkeys/key1515.pem ansible_connection=ssh
